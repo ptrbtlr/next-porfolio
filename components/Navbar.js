@@ -4,6 +4,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h1>Cian Butler</h1>
+        <Image src="/../public/assets/logo/cB.png" width="100px" height="100px" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
