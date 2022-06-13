@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import cryptoProject from "../public/assets/projects/crypto-project.png";
+import vpnProject from "../public/assets/projects/vpn-project.png"
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -20,10 +21,10 @@ const Projects = () => {
             projectUrl="/crypto"
           />
           <ProjectItem
-            title="Crypto Tracker"
-            backgroundImg={cryptoProject}
+            title="VPN Website"
+            backgroundImg={vpnProject}
             projectTech="React JS | Tailwind"
-            projectUrl="/crypto"
+            projectUrl="/vpn"
           />
           <ProjectItem
             title="Crypto Tracker"
