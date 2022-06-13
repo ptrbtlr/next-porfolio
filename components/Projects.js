@@ -16,7 +16,7 @@ const Projects = () => {
           <ProjectItem
             title="Crypto Tracker"
             backgroundImg={cryptoProject}
-            projectTech="React JS | Tailwind"
+            projectTech="React JS | Tailwind | Firebase"
             projectUrl="/crypto"
           />
           <ProjectItem
