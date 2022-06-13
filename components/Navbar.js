@@ -4,10 +4,25 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#ECf0F3");
+  const [linkColor, setLinkColor] = useState("#1F2937");
+
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.asPath === "/crypto") {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ECf0F3");
+      setLinkColor("#1F2937");
+    }
+  }, [router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -25,6 +40,7 @@ const Navbar = () => {
   };
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -36,30 +52,36 @@ const Navbar = () => {
           <a href="/">Cian Butler</a>
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b border-[#5651e5]">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b border-[#5651e5]">
+                About
+              </li>
             </Link>
 
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b border-[#5651e5]">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b border-[#5651e5]">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b border-[#5651e5]">
                 Contact
               </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} className="cursor-pointer" />
           </div>
         </div>
       </div>

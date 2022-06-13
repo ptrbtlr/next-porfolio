@@ -14,16 +14,16 @@ const Main = () => {
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I'm a front-end web developer based in Toronto. I specialize in building (and ocassionally designing) amazing digital experiences. Currently, I'm focused on building beautiful responsive front-end web applications while learning back-end technologies.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn/>
+                        <FaLinkedinIn className='text-[#5651e5]'/>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub/>
+                        <FaGithub className='text-[#5651e5]'/>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail/>
+                        <AiOutlineMail className='text-[#5651e5]'/>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill/>
+                        <BsFillPersonLinesFill className='text-[#5651e5]'/>
                     </div>
 
                 </div>
