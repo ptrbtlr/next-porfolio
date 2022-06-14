@@ -34,6 +34,7 @@ const crypto = () => {
             dolorem modi. Vero inventore aliquid eligendi laboriosam.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
+
           <button className="px-8 py-2 mt-4 mr-8">Code</button>
         </div>
 
