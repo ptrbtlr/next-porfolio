@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import cryptoProject from "../public/assets/projects/crypto-project.png";
 import vpnProject from "../public/assets/projects/vpn-project.png"
+import netflixProject from "../public/assets/projects/netflix-project.png"
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -27,10 +28,10 @@ const Projects = () => {
             projectUrl="/vpn"
           />
           <ProjectItem
-            title="Crypto Tracker"
-            backgroundImg={cryptoProject}
-            projectTech="React JS | Tailwind"
-            projectUrl="/crypto"
+            title="Netflix Clone"
+            backgroundImg={netflixProject}
+            projectTech="React JS | Tailwind | Firebase"
+            projectUrl="/netflix"
           />
           <ProjectItem
             title="Crypto Tracker"
