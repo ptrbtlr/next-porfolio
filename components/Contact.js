@@ -35,16 +35,19 @@ const Contact = () => {
               <div>
                 <p className="pt-8 uppercase">Connect With Me!</p>
                 <div className="flex items-center justify-between py-4">
-                  <Link href="/">
+                  <a
+                    href="https://www.linkedin.com/in/cianbutlerdev/"
+                    target="_blank"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
-                  </Link>
-                  <Link href="https://github.com/ciandevelops/">
+                  </a>
+                  <a href="https://github.com/ciandevelops/" target="_blank">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
-                  </Link>
+                  </a>
                   <Link href="/">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
