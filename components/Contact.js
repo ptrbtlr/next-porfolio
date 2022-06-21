@@ -33,28 +33,30 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="pt-8 uppercase">Connect With Me!</p>
+                <p className="pt-8 uppercase text-[#5651E5]">
+                  Connect With Me!
+                </p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/cianbutlerdev/"
                     target="_blank"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
                   <a href="https://github.com/ciandevelops/" target="_blank">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
                   <Link href="/">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </Link>
                   <Link href="/">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
                   </Link>
