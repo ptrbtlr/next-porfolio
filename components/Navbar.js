@@ -49,7 +49,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <a href="/">Cian Butler</a>
+          <a className="logo">Cian Butler</a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
