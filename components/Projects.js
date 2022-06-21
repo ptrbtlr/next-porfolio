@@ -34,10 +34,10 @@ const Projects = () => {
             projectUrl="/netflix"
           />
           <ProjectItem
-            title="Crypto Tracker"
+            title="In Progress"
             backgroundImg={cryptoProject}
             projectTech="React JS | Tailwind"
-            projectUrl="/crypto"
+            projectUrl="/"
           />
         </div>
       </div>

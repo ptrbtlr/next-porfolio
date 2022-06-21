@@ -26,12 +26,14 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            molestias praesentium quas tempore voluptate nesciunt aliquid! Rem
-            assumenda vero magnam sint iure, odit necessitatibus explicabo
-            suscipit animi corporis reprehenderit minus quas fuga nostrum aut ex
-            voluptatibus labore ipsum incidunt, libero sunt doloremque. Quo,
-            dolorem modi. Vero inventore aliquid eligendi laboriosam.
+            This project is created with Create React App. I used the Coin Gecko
+            API and Axios to fetch the Top 10 Cryptocurrencies at any given
+            time. Context was used to create the Dark/Light Theme functionality.
+            Firebase was used to allow the user to Sign In and Sign Up with an
+            email address and password. This then allowed the user to save a
+            coin to their account as a 'favourite'. React-Router was used for
+            the routing and a very useful package, React Sparkline was used to
+            create charts for the coin's price over 7 days.
           </p>
 
           <a href="https://crypto-project-eight.vercel.app/" target="_blank">

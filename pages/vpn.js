@@ -26,14 +26,13 @@ const vpn = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            molestias praesentium quas tempore voluptate nesciunt aliquid! Rem
-            assumenda vero magnam sint iure, odit necessitatibus explicabo
-            suscipit animi corporis reprehenderit minus quas fuga nostrum aut ex
-            voluptatibus labore ipsum incidunt, libero sunt doloremque. Quo,
-            dolorem modi. Vero inventore aliquid eligendi laboriosam.
+            This project is created with Create React App. This is mainly a
+            design-focused project with the intention to mock a real business
+            website. I used a package called React-Typed to create a typewriter
+            effect in the site's hero section. Tailwind and React Icons are used
+            to style the site also.
           </p>
-          
+
           <a href="https://vpn-project-umber.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
           </a>

@@ -26,12 +26,17 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            molestias praesentium quas tempore voluptate nesciunt aliquid! Rem
-            assumenda vero magnam sint iure, odit necessitatibus explicabo
-            suscipit animi corporis reprehenderit minus quas fuga nostrum aut ex
-            voluptatibus labore ipsum incidunt, libero sunt doloremque. Quo,
-            dolorem modi. Vero inventore aliquid eligendi laboriosam.
+            This project is created with Create React App. I used The Movie
+            Database's API with Axios to fetch Upcoming, Popular, Trending, Top
+            Rated and Horror movies. The website's hero' section also shows
+            further information about a random Popular Movie on every reload. I
+            used Firebase to let the user Sign Up and Sign In. Upon Sign In the
+            user is redirected to the Home Page where they can 'like' a movie
+            which adds that movie to a list of liked movies which is viewable on
+            the account page of the website. These liked movies can be removed
+            and added as necessary. The whole project is styled using Tailwind
+            and base styles of background colour and Fonts brought in from
+            Google Fonts.
           </p>
 
           <a href="https://netflix-clone-inky-five.vercel.app/" target="_blank">
