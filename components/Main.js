@@ -26,13 +26,18 @@ const Main = () => {
             <a
               href="https://www.linkedin.com/in/cianbutlerdev/"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn className="text-[#5651e5]" />
               </div>
             </a>
 
-            <a target="_blank" href="https://github.com/ciandevelops/">
+            <a
+              target="_blank"
+              href="https://github.com/ciandevelops/"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub className="text-[#5651e5]" />
               </div>

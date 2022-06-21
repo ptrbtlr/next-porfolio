@@ -68,12 +68,17 @@ const Contact = () => {
                   <a
                     href="https://www.linkedin.com/in/cianbutlerdev/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="https://github.com/ciandevelops/" target="_blank">
+                  <a
+                    href="https://github.com/ciandevelops/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#5651e5] ease-in duration-300">
                       <FaGithub />
                     </div>

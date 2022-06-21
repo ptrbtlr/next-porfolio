@@ -153,21 +153,31 @@ const Navbar = () => {
                 <a
                   href="https://www.linkedin.com/in/cianbutlerdev/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
 
-                <a href="https://github.com/ciandevelops/" target="_blank">
+                <a
+                  href="https://github.com/ciandevelops/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </a>
+                <Link href="/#contact">
+                  <div
+                    onClick={() => setNav(false)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    <AiOutlineMail />
+                  </div>
+                </Link>
 
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
