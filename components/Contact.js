@@ -1,11 +1,34 @@
 import Link from "next/link";
-import React from "react";
+import React, { useRef } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_v9kjupr", //your service id
+        "template_vrch645", //your template id
+        form.current,
+        "yhlNADGvBYw_dcwoq" //your public key
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -68,46 +91,65 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2 ">
                   <div className="flex flex-col">
                     <label className="text-sm uppercase py-2">Name</label>
                     <input
                       type="text"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
+                      name="user_name"
+                      required
                     />
                   </div>
                   <div className="flex flex-col">
                     <label className="text-sm uppercase py-2">
-                      Phone Number
+                      Phone Number{" "}
+                      <span className="text-red-400 text-xs">
+                        (*not required)
+                      </span>
                     </label>
                     <input
                       type="text"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
+                      name="user_phone"
+                    />
+                  </div>
+                  <div className="flex flex-col py-2">
+                    <label className="text-sm uppercase py-2">Email</label>
+                    <input
+                      type="email"
+                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      name="user_email"
+                      required
+                    />
+                  </div>
+                  <div className="flex flex-col py-2">
+                    <label className="text-sm uppercase py-2">Subject</label>
+                    <input
+                      type="text"
+                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      name="user_subject"
+                      required
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="text-sm uppercase py-2">Email</label>
-                  <input
-                    type="email"
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="text-sm uppercase py-2">Subject</label>
-                  <input
-                    type="text"
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
                   <label className="text-sm uppercase py-2">Message</label>
-                  <textarea className="border-2 rounded-lg p-3 flex border-gray-300"></textarea>
+                  <textarea
+                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    name="message"
+                    required
+                  ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
-                </button>
+                <br />
+                <div className="flex flex-col py-2">
+                  <input
+                    className="w-full p-4 bg-[#5651e5] text-gray-100 mt-4 cursor-pointer"
+                    type="submit"
+                    value="Send"
+                  />
+                </div>
               </form>
             </div>
           </div>
