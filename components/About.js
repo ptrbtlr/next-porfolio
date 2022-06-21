@@ -11,23 +11,16 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            rem asperiores ullam facere placeat, mollitia, dolorum veniam
-            architecto exercitationem natus voluptatum eveniet ducimus
-            doloremque magni quam. Blanditiis sint adipisci eos nam modi
-            accusamus facere quam architecto exercitationem praesentium debitis
-            eveniet officiis, laboriosam ipsum tenetur libero quibusdam sit unde
-            quod! Odit porro iure aut quas illo?
+            I am an Irish 🇮🇪, Toronto 🇨🇦 based Web Developer who worked in
+            Retail Management for 8 years. I have dabbled with programming
+            languages and computers in general from a very young age. The
+            pandemic made me put my head down and work toward what I'm
+            passionate about. I hope to continue learning and achieve my dream
+            of switching careers. I actively use Udemy, TeamTreeHouse,
+            FreeCodeCamp and more, to bring my skills to a new level as I look
+            for a full-time role. I look forward to hearing from you.
           </p>
-          <p className="py-2 text-gray-600">
-            I am Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            rem asperiores ullam facere placeat, mollitia, dolorum veniam
-            architecto exercitationem natus voluptatum eveniet ducimus
-            doloremque magni quam. Blanditiis sint adipisci eos nam modi
-            accusamus facere quam architecto exercitationem praesentium debitis
-            eveniet officiis, laboriosam ipsum tenetur libero quibusdam sit unde
-            quod! Odit porro iure aut quas illo?
-          </p>
+
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects!

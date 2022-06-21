@@ -16,8 +16,8 @@ const vpn = () => {
           src={vpnProject}
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto Tracker</h2>
-          <h3>React JS | Tailwind | Firebase</h3>
+          <h2 className="py-2">VPN Business Project</h2>
+          <h3>React JS | Tailwind </h3>
         </div>
       </div>
 
@@ -33,8 +33,14 @@ const vpn = () => {
             voluptatibus labore ipsum incidunt, libero sunt doloremque. Quo,
             dolorem modi. Vero inventore aliquid eligendi laboriosam.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
-          <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          
+          <a href="https://vpn-project-umber.vercel.app/" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
+          </a>
+
+          <a href="https://github.com/ciandevelops/vpn-project" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
         </div>
 
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

@@ -33,9 +33,17 @@ const crypto = () => {
             voluptatibus labore ipsum incidunt, libero sunt doloremque. Quo,
             dolorem modi. Vero inventore aliquid eligendi laboriosam.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
 
-          <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          <a href="https://crypto-project-eight.vercel.app/" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
+          </a>
+
+          <a
+            href="https://github.com/ciandevelops/crypto-project"
+            target="_blank"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
         </div>
 
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
