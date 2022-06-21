@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
@@ -22,6 +23,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Message Sent!");
           e.target.reset();
         },
         (error) => {
@@ -31,6 +33,9 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="w-full lg:h-screen">
+      <div>
+        <Toaster />
+      </div>
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
