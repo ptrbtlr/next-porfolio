@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import cryptoProject from "../public/assets/projects/crypto-project.png";
-import vpnProject from "../public/assets/projects/vpn-project.png"
-import netflixProject from "../public/assets/projects/netflix-project.png"
+import vpnProject from "../public/assets/projects/vpn-project.png";
+import netflixProject from "../public/assets/projects/netflix-project.png";
+import recipeProject from "../public/assets/projects/recipe-project.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -34,10 +35,10 @@ const Projects = () => {
             projectUrl="/netflix"
           />
           <ProjectItem
-            title="In Progress"
-            backgroundImg={cryptoProject}
-            projectTech="React JS | Tailwind"
-            projectUrl="/"
+            title="Recipe Project"
+            backgroundImg={recipeProject}
+            projectTech="Next JS | Styled Components | Framer Motion"
+            projectUrl="/recipe"
           />
         </div>
       </div>
