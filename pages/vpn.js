@@ -30,15 +30,23 @@ const vpn = () => {
             This project is created with Create React App. This is mainly a
             design-focused project with the intention to mock a real business
             website. I used a package called React-Typed to create a typewriter
-            effect in the site's hero section. Tailwind and React Icons are used
-            to style the site also.
+            effect in the site&apos;s hero section. Tailwind and React Icons are
+            used to style the site also.
           </p>
 
-          <a href="https://vpn-project-umber.vercel.app/" target="_blank">
+          <a
+            href="https://vpn-project-umber.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
           </a>
 
-          <a href="https://github.com/ciandevelops/vpn-project" target="_blank">
+          <a
+            href="https://github.com/ciandevelops/vpn-project"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
         </div>

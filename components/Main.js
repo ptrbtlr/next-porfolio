@@ -10,17 +10,17 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase tracking-widest text-gray-600">
-            Let's build something together!
+            Let&apos;s build something together!
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Cian</span>
+            Hi, I&apos;m <span className="text-[#5651e5]">Cian</span>
           </h1>
           <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm a front-end web developer based in Toronto. I specialize in
+            I&apos;m a front-end web developer based in Toronto. I specialize in
             building (and ocassionally designing) amazing digital experiences.
-            Currently, I'm focused on building beautiful, responsive front-end
-            web applications while learning back-end technologies.
+            Currently, I&apos;m focused on building beautiful, responsive
+            front-end web applications while learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a

@@ -14,7 +14,7 @@ const About = () => {
             I am an Irish 🇮🇪, Toronto 🇨🇦 based Web Developer who worked in
             Retail Management for 8 years. I have dabbled with programming
             languages and computers in general from a very young age. The
-            pandemic made me put my head down and work toward what I'm
+            pandemic made me put my head down and work toward what I&apos;m
             passionate about. I hope to continue learning and achieve my dream
             of switching careers. I actively use Udemy, TeamTreeHouse,
             FreeCodeCamp and more, to bring my skills to a new level as I look

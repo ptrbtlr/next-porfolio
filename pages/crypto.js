@@ -32,18 +32,23 @@ const crypto = () => {
             time. Context was used to create the Dark/Light Theme functionality.
             Firebase was used to allow the user to Sign In and Sign Up with an
             email address and password. This then allowed the user to save a
-            coin to their account as a 'favourite'. React-Router was used for
-            the routing and a very useful package, React Sparkline was used to
-            create charts for the coin's price over 7 days.
+            coin to their account as a favourite. React-Router was used for the
+            routing and a very useful package, React Sparkline was used to
+            create charts for the coin&apos;s price over 7 days.
           </p>
 
-          <a href="https://crypto-project-eight.vercel.app/" target="_blank">
+          <a
+            href="https://crypto-project-eight.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
           </a>
 
           <a
             href="https://github.com/ciandevelops/crypto-project"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>

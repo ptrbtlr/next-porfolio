@@ -28,25 +28,30 @@ const crypto = () => {
           <h2>Overview</h2>
           <p>
             This project is created with Create React App. I used The Movie
-            Database's API with Axios to fetch Upcoming, Popular, Trending, Top
-            Rated and Horror movies. The website's hero' section also shows
-            further information about a random Popular Movie on every reload. I
-            used Firebase to let the user Sign Up and Sign In. Upon Sign In the
-            user is redirected to the Home Page where they can 'like' a movie
-            which adds that movie to a list of liked movies which is viewable on
-            the account page of the website. These liked movies can be removed
-            and added as necessary. The whole project is styled using Tailwind
-            and base styles of background colour and Fonts brought in from
-            Google Fonts.
+            Database&apos;s API with Axios to fetch Upcoming, Popular, Trending,
+            Top Rated and Horror movies. The website&apos;s hero section also
+            shows further information about a random Popular Movie on every
+            reload. I used Firebase to let the user Sign Up and Sign In. Upon
+            Sign In the user is redirected to the Home Page where they can like
+            a movie which adds that movie to a list of liked movies which is
+            viewable on the account page of the website. These liked movies can
+            be removed and added as necessary. The whole project is styled using
+            Tailwind and base styles of background colour and Fonts brought in
+            from Google Fonts.
           </p>
 
-          <a href="https://netflix-clone-inky-five.vercel.app/" target="_blank">
+          <a
+            href="https://netflix-clone-inky-five.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Live Version</button>
           </a>
 
           <a
             href="https://github.com/ciandevelops/netflix-clone"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
