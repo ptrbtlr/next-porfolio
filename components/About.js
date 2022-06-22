@@ -11,7 +11,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am an Irish 🇮🇪, Toronto 🇨🇦 based Web Developer who worked in
+            I am a Toronto based Web Developer who worked in
             Retail Management for 8 years. I have dabbled with programming
             languages and computers in general from a very young age. The
             pandemic made me put my head down and work toward what I&apos;m

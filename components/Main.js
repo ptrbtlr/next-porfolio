@@ -48,10 +48,11 @@ const Main = () => {
                 <AiOutlineMail className="text-[#5651e5]" />
               </div>
             </Link>
-
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill className="text-[#5651e5]" />
-            </div>
+            <a download href="resume.pdf">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill className="text-[#5651e5]" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
