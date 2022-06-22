@@ -39,7 +39,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src={cssImage}
-                  alt="html"
+                  alt="css"
                   width="64px"
                   height="64px"
                 />
@@ -109,7 +109,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Next</h3>
+                <h3>Next.js</h3>
               </div>
             </div>
           </div>
