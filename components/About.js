@@ -11,12 +11,13 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am a Toronto based Web Developer who worked in
-            Retail Management for 8 years. I have dabbled with programming
+            Hi, I&apos;m Cian. I&apos;m a Toronto based Web Developer who has
+            over 4 years freelance web development experience, along with over 7
+            years in retail management. I have dabbled with programming
             languages and computers in general from a very young age. The
             pandemic made me put my head down and work toward what I&apos;m
             passionate about. I hope to continue learning and achieve my dream
-            of switching careers. I actively use Udemy, TeamTreeHouse,
+            of switching careers. I actively use Udemy, Zero To Mastery,
             FreeCodeCamp and more, to bring my skills to a new level as I look
             for a full-time role. I look forward to hearing from you.
           </p>
