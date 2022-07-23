@@ -38,7 +38,7 @@ const crypto = () => {
           </p>
 
           <a
-            href="https://crypto-project-eight.vercel.app/"
+            href="https://crypto-project-kappa.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
