@@ -12,8 +12,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             Hi, I&apos;m Cian. I&apos;m a Toronto based Web Developer who has
-            over 5 years freelance web development experience, along with over 7
-            years in retail management. I have dabbled with programming
+            over 5 years freelance web development experience. I have dabbled with programming
             languages and computers in general from a very young age. I actively
             use Udemy, Zero To Mastery, FreeCodeCamp and more, to bring my
             skills to a new level. I look forward to hearing from you.
