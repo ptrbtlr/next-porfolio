@@ -15,7 +15,7 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]">Cian</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Devops | Front-End Web Developer</h1>
+          <h1 className="py-2 text-gray-700">Devops <span className="text-[#5651e5]">|</span> Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a devops engineer based in Toronto. This is for showcasing my front-end development projects. I specialize in
             building (and ocassionally designing) amazing digital experiences.
