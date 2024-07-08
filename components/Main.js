@@ -17,12 +17,12 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">Devops <span className="text-[#5651e5]">|</span> Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a Devops Engineer based in Toronto. This is for showcasing my front-end development projects. I specialize in
+            I&apos;m a Devops Engineer | Fronted Developer based in Atlanta. This is for showcasing my front-end development projects. I specialize in
             building (and ocassionally designing) amazing digital experiences.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              href="https://www.linkedin.com/in/cianbutlerdev/"
+              href="https://www.linkedin.com/in/cpeter-butler/"
               target="_blank"
               rel="noreferrer"
             >
@@ -33,7 +33,7 @@ const Main = () => {
 
             <a
               target="_blank"
-              href="https://github.com/ciandevelops/"
+              href="https://github.com/ptrbtlr/"
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
