@@ -43,7 +43,7 @@ const vpn = () => {
           </a>
 
           <a
-            href="https://github.com/ciandevelops/vpn-project"
+            href="https://github.com/ptrbtlr/vpn-project"
             target="_blank"
             rel="noreferrer"
           >

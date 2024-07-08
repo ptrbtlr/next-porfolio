@@ -46,7 +46,7 @@ const crypto = () => {
           </a>
 
           <a
-            href="https://github.com/ciandevelops/crypto-project"
+            href="https://github.com/ptrbtlr/crypto-project"
             target="_blank"
             rel="noreferrer"
           >

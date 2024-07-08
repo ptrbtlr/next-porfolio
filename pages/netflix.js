@@ -49,7 +49,7 @@ const crypto = () => {
           </a>
 
           <a
-            href="https://github.com/ciandevelops/netflix-clone"
+            href="https://github.com/ptrbtlr/netflix-clone"
             target="_blank"
             rel="noreferrer"
           >
