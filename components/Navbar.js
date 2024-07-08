@@ -49,7 +49,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <a className="logo">Cian Butler</a>
+          <a className="logo">Peter Butler</a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -101,7 +101,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <h1>Cian Butler</h1>
+                <h1>Peter Butler</h1>
               </Link>
 
               <div
@@ -151,7 +151,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/cianbutlerdev/"
+                  href="https://www.linkedin.com/in/cpeter-butler/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -161,7 +161,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="https://github.com/ciandevelops/"
+                  href="https://github.com/ptrbtlr"
                   target="_blank"
                   rel="noreferrer"
                 >

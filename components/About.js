@@ -11,7 +11,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hi, I&apos;m Cian, a Toronto based experienced DevOps Engineer with a strong background in front-end development, specializing in leveraging DevOps methodologies to streamline software development processes. Skilled in automating deployment pipelines, optimizing scalability, and improving infrastructure efficiency. Dedicated to facilitating seamless collaboration between development and operations teams to accelerate time to market and enhance product quality. Adept at implementing CI/CD pipelines, configuring infrastructure as code, and managing containerization technologies. Proven ability to drive continuous improvement initiatives and foster a culture of innovation.
+            Hi, I&apos;m Peter, an Atlanta based experienced DevOps Engineer with a strong background in front-end development, specializing in leveraging DevOps methodologies to streamline software development processes. Skilled in automating deployment pipelines, optimizing scalability, and improving infrastructure efficiency. Dedicated to facilitating seamless collaboration between development and operations teams to accelerate time to market and enhance product quality. Adept at implementing CI/CD pipelines, configuring infrastructure as code, and managing containerization technologies. Proven ability to drive continuous improvement initiatives and foster a culture of innovation.
           </p>
 
           <Link href="/#projects">

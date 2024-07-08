@@ -53,7 +53,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-4">Cian Butler</h2>
+                <h2 className="py-4">Peter Butler</h2>
                 <p>Devops | Front-End Developer</p>
                 <p className="py-4">
                   Contact me!
@@ -65,7 +65,7 @@ const Contact = () => {
                 </p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/cianbutlerdev/"
+                    href="https://www.linkedin.com/in/cpeter-butler/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,7 +74,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/ciandevelops/"
+                    href="https://github.com/ptrbtlr"
                     target="_blank"
                     rel="noreferrer"
                   >
