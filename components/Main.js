@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">Devops <span className="text-[#5651e5]">|</span> Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a Devops Engineer | Front-end Developer based in Atlanta. This is for showcasing my front-end development projects. I specialize in
+            I&apos;m a Devops Engineer | Front-end Developer based in Austin. This is for showcasing my front-end development projects. I specialize in
             building (and ocassionally designing) amazing digital experiences.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
